@@ -1,0 +1,36 @@
+/* Set the background image */
+body {
+    background: url("https://source.unsplash.com/feature/nature") no-repeat center center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the main container */
+.container {
+    width: 60%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Style the quote and author */
+.quote {
+    font-size: 20px;
+    font-style: italic;
+    color: #333;
+    margin: 5px 0;
+}
+
+.author {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Style the hidden iframe for YouTube subscription */
+.youtube-subscription {
+    display: none;
+}
